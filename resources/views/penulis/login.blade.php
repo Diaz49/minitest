@@ -38,6 +38,9 @@
                     <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                         Don’t have an account yet? <a href="{{route('penulis.auth.register.page')}}" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign up</a>
                     </p>
+                    <div>
+                    <a href="{{route('landingpage')}}" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Back To Home</a>
+                    </div>
                 </form>
             </div>
         </div>
